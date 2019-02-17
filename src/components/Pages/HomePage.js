@@ -7,7 +7,7 @@ export default class HomePage extends Component {
         <div className="jumbotron">
           <div className="container text-center">
             <h1>Talal Qasem</h1>
-            <p>
+            <p style={{ fontStyle: "italic" }}>
               I'm an experienced Web Developer with a demonstrated history in
               cross-platform web application development primarily in React
               Native. I love solving problems and creating new applications
