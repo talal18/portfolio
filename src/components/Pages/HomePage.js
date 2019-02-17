@@ -6,7 +6,7 @@ export default class HomePage extends Component {
       <div>
         <div className="jumbotron">
           <div className="container text-center">
-            <h1>My Portfolio</h1>
+            <h1>Talal Qasem</h1>
             <p>Some text that represents "Me"...</p>
           </div>
         </div>
