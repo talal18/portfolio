@@ -15,13 +15,17 @@ const Header = props => (
           <span className="icon-bar" />
           <span className="icon-bar" />
         </button>
-        <a className="navbar-brand" href="#">
+        <a
+          className="navbar-brand"
+          href="#"
+          onClick={() => browserHistory.push("#/")}
+        >
           Portfolio
         </a>
       </div>
       <div className="collapse navbar-collapse" id="myNavbar">
         <ul className="nav navbar-nav">
-          <li className="active">
+          <li>
             <a href="#" onClick={() => browserHistory.push("#/")}>
               Home
             </a>
