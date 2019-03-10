@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import carRaceImage from "../../assets/images/car-race-cover.png";
+import carModelImage from "../../assets/images/car-model-cover.png";
+import nextMedImage from "../../assets/images/nextmed-cover.png";
+import gigHuntImage from "../../assets/images/gigHunt-cover.png";
 
 export default class HomePage extends Component {
   render() {
@@ -23,40 +27,42 @@ export default class HomePage extends Component {
         </div>
 
         <div className="container-fluid bg-3 text-center">
-          <h3>Some of my Work</h3>
+          <h3>My Projects</h3>
           <br />
           <div className="row">
             <div className="col-sm-3">
-              <p>Some text..</p>
+              <p>Car Race</p>
               <img
-                src="https://placehold.it/150x80?text=IMAGE"
+                src={carRaceImage}
                 className="img-responsive"
                 style={{ width: "100%" }}
                 alt="Image"
               />
             </div>
             <div className="col-sm-3">
-              <p>Some text..</p>
+              <p>Car Model Finder</p>
               <img
-                src="https://placehold.it/150x80?text=IMAGE"
+                src={carModelImage}
                 className="img-responsive"
                 style={{ width: "100%" }}
                 alt="Image"
               />
             </div>
             <div className="col-sm-3">
-              <p>Some text..</p>
+              <p>NextMed</p>
               <img
-                src="https://placehold.it/150x80?text=IMAGE"
+                src={nextMedImage}
                 className="img-responsive"
-                style={{ width: "100%" }}
+                style={{
+                  width: "100%"
+                }}
                 alt="Image"
               />
             </div>
             <div className="col-sm-3">
-              <p>Some text..</p>
+              <p>GigHunt</p>
               <img
-                src="https://placehold.it/150x80?text=IMAGE"
+                src={gigHuntImage}
                 className="img-responsive"
                 style={{ width: "100%" }}
                 alt="Image"
@@ -66,7 +72,7 @@ export default class HomePage extends Component {
         </div>
         <br />
 
-        <div className="container-fluid bg-3 text-center">
+        {/* <div className="container-fluid bg-3 text-center">
           <div className="row">
             <div className="col-sm-3">
               <p>Some text..</p>
@@ -107,7 +113,7 @@ export default class HomePage extends Component {
           </div>
         </div>
         <br />
-        <br />
+        <br /> */}
         <br />
       </div>
     );

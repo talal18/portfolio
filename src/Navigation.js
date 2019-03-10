@@ -16,6 +16,7 @@ const routes = (
       <Route path="/about" component={AboutPage} />
       <Route path="/contact" component={Contact} />
       <Route path="*" component={PageNotFound} />
+      <Route path="http://carmodels.talal.tk" />
     </Route>
   </Router>
 );
