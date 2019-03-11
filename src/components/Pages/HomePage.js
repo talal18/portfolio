@@ -41,12 +41,14 @@ export default class HomePage extends Component {
             </div>
             <div className="col-sm-3">
               <p>Car Model Finder</p>
-              <img
-                src={carModelImage}
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
+              <a href="http://carmodels.talal.tk/">
+                <img
+                  src={carModelImage}
+                  className="img-responsive"
+                  style={{ width: "100%" }}
+                  alt="Image"
+                />
+              </a>
             </div>
             <div className="col-sm-3">
               <p>NextMed</p>
