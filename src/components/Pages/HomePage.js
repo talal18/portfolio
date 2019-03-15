@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { browserHistory } from "react-router";
 import carRaceImage from "../../assets/images/car-race-cover.png";
 import carModelImage from "../../assets/images/car-model-cover.png";
 import nextMedImage from "../../assets/images/nextmed-cover.png";
 import gigHuntImage from "../../assets/images/gigHunt-cover.png";
+import LogosIcons from "../../assets/images/logos-and-icons.png";
 
 export default class HomePage extends Component {
   render() {
@@ -32,12 +34,18 @@ export default class HomePage extends Component {
           <div className="row">
             <div className="col-sm-3">
               <p>Car Race</p>
-              <img
-                src={carRaceImage}
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
+              <a href="#" onClick={() => browserHistory.push("carrace")}>
+                <img
+                  src={carRaceImage}
+                  className="img-responsive"
+                  style={{
+                    width: "100%",
+                    padding: "5px",
+                    backgroundColor: "#d6d6d6"
+                  }}
+                  alt="Image"
+                />
+              </a>
             </div>
             <div className="col-sm-3">
               <p>Car Model Finder</p>
@@ -45,7 +53,11 @@ export default class HomePage extends Component {
                 <img
                   src={carModelImage}
                   className="img-responsive"
-                  style={{ width: "100%" }}
+                  style={{
+                    width: "100%",
+                    padding: "5px",
+                    backgroundColor: "#d6d6d6"
+                  }}
                   alt="Image"
                 />
               </a>
@@ -56,7 +68,9 @@ export default class HomePage extends Component {
                 src={nextMedImage}
                 className="img-responsive"
                 style={{
-                  width: "100%"
+                  width: "100%",
+                  padding: "5px",
+                  backgroundColor: "#d6d6d6"
                 }}
                 alt="Image"
               />
@@ -66,7 +80,11 @@ export default class HomePage extends Component {
               <img
                 src={gigHuntImage}
                 className="img-responsive"
-                style={{ width: "100%" }}
+                style={{
+                  width: "100%",
+                  padding: "5px",
+                  backgroundColor: "#d6d6d6"
+                }}
                 alt="Image"
               />
             </div>
@@ -74,48 +92,25 @@ export default class HomePage extends Component {
         </div>
         <br />
 
-        {/* <div className="container-fluid bg-3 text-center">
+        <div className="container-fluid bg-3 text-center">
           <div className="row">
             <div className="col-sm-3">
-              <p>Some text..</p>
+              <p>Logos & Icons</p>
               <img
-                src="https://placehold.it/150x80?text=IMAGE"
+                src={LogosIcons}
                 className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
-            </div>
-            <div className="col-sm-3">
-              <p>Some text..</p>
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
-            </div>
-            <div className="col-sm-3">
-              <p>Some text..</p>
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                className="img-responsive"
-                style={{ width: "100%" }}
-                alt="Image"
-              />
-            </div>
-            <div className="col-sm-3">
-              <p>Some text..</p>
-              <img
-                src="https://placehold.it/150x80?text=IMAGE"
-                className="img-responsive"
-                style={{ width: "100%" }}
+                style={{
+                  width: "100%",
+                  padding: "5px",
+                  backgroundColor: "#d6d6d6"
+                }}
                 alt="Image"
               />
             </div>
           </div>
         </div>
         <br />
-        <br /> */}
+        <br />
         <br />
       </div>
     );

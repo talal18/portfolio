@@ -1,13 +1,11 @@
 import React, { Component } from "react";
 import { Router, Route, IndexRoute, browserHistory } from "react-router";
-
 import Layout from "./common/Layout";
 import PageNotFound from "./common/PageNotFound";
-
 import HomePage from "./components/Pages/HomePage";
-
 import AboutPage from "./components/Pages/AboutPage";
 import Contact from "./components/Pages/Contact";
+import CarRace from "./components/Pages/projects/CarRace";
 
 const routes = (
   <Router history={browserHistory}>
@@ -15,8 +13,8 @@ const routes = (
       <IndexRoute component={HomePage} />
       <Route path="/about" component={AboutPage} />
       <Route path="/contact" component={Contact} />
+      <Route path="/carrace" component={CarRace} />
       <Route path="*" component={PageNotFound} />
-      <Route path="http://carmodels.talal.tk" />
     </Route>
   </Router>
 );
