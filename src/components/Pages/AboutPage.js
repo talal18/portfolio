@@ -82,6 +82,19 @@ export default class AboutPage extends Component {
                 <br /> <br />
                 {/* start of experience */}
                 <tr>
+                  <td>
+                    <p
+                      style={{
+                        fontSize: 22,
+                        fontWeight: "bold"
+                      }}
+                    >
+                      RELEVANT WORK EXPERIENCE
+                    </p>
+                  </td>
+                  <td />
+                </tr>
+                <tr>
                   <td
                     className="col-md-4"
                     style={{
@@ -92,20 +105,12 @@ export default class AboutPage extends Component {
                   >
                     <p
                       style={{
-                        fontSize: 22,
-                        fontWeight: "bold"
-                      }}
-                    >
-                      RELEVANT WORK EXPERIENCE
-                    </p>
-                    <p
-                      style={{
                         fontSize: 14,
                         fontWeight: "bold",
                         fontStyle: "italic"
                       }}
                     >
-                      Freelance Developer Jan, 2018 to Present
+                      Freelance Developer - Jan, 2018 to Present
                     </p>
                   </td>
                   <td
@@ -170,6 +175,69 @@ export default class AboutPage extends Component {
                 </tr>
                 {/* end of experience */}
                 <br /> <br />
+                {/* start of sayadev experience */}
+                <tr>
+                  <td
+                    className="col-md-4"
+                    style={{
+                      fontSize: 22,
+                      fontWeight: "bold",
+                      verticalAlign: "text-top"
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontSize: 14,
+                        fontWeight: "bold",
+                        fontStyle: "italic"
+                      }}
+                    >
+                      Saya Development - Feb, 2018 to Feb, 2019
+                    </p>
+                  </td>
+                  <td
+                    className="col-md-8"
+                    style={{
+                      fontSize: 14,
+                      fontStyle: "italic"
+                    }}
+                  >
+                    <ul>
+                      <li>
+                        <p>Developed web applications using React.js.</p>
+                      </li>
+                      <li>
+                        <p>Developed mobile applications using React Native.</p>
+                      </li>
+                      <li>
+                        <p>
+                          Used NodeJS, Express for the backend and MongoDB for
+                          the database.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Used SQLite for mobile applications local storage.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Design and applied user friendly interfaces (UI) for
+                          web and mobile applications using CSS, Bootstrap, and
+                          Adobe Photoshop.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Developed styling module on react native to create
+                          responsive layouts.
+                        </p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                {/* end of syadev experience */}
+                <br /> <br />
                 {/* start of tutor */}
                 <tr>
                   <td
@@ -182,20 +250,12 @@ export default class AboutPage extends Component {
                   >
                     <p
                       style={{
-                        fontSize: 22,
-                        fontWeight: "bold"
-                      }}
-                    >
-                      Tutor
-                    </p>
-                    <p
-                      style={{
                         fontSize: 14,
                         fontWeight: "bold",
                         fontStyle: "italic"
                       }}
                     >
-                      Algonquin College
+                      Tutor - Algonquin College
                     </p>
                   </td>
 
