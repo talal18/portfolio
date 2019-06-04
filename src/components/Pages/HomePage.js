@@ -96,16 +96,18 @@ export default class HomePage extends Component {
           <div className="row">
             <div className="col-sm-3">
               <p>Logos & Icons</p>
-              <img
-                src={LogosIcons}
-                className="img-responsive"
-                style={{
-                  width: "100%",
-                  padding: "5px",
-                  backgroundColor: "#d6d6d6"
-                }}
-                alt="Image"
-              />
+              <a href="#" onClick={() => browserHistory.push("logos")}>
+                <img
+                  src={LogosIcons}
+                  className="img-responsive"
+                  style={{
+                    width: "100%",
+                    padding: "5px",
+                    backgroundColor: "#d6d6d6"
+                  }}
+                  alt="Image"
+                />
+              </a>
             </div>
           </div>
         </div>

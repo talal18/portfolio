@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export default class AboutPage extends Component {
+export default class MyResume extends Component {
   render() {
     return (
       <div>
@@ -175,6 +175,52 @@ export default class AboutPage extends Component {
                 </tr>
                 {/* end of experience */}
                 <br /> <br />
+                {/* start of giant tiger experience */}
+                <tr>
+                  <td
+                    className="col-md-4"
+                    style={{
+                      fontSize: 22,
+                      fontWeight: "bold",
+                      verticalAlign: "text-top"
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontSize: 14,
+                        fontWeight: "bold",
+                        fontStyle: "italic"
+                      }}
+                    >
+                      Giant Tiger (3 weeks contract) - Aug, 2019 to May, 2019
+                    </p>
+                  </td>
+                  <td
+                    className="col-md-8"
+                    style={{
+                      fontSize: 14,
+                      fontStyle: "italic"
+                    }}
+                  >
+                    <ul>
+                      <li>
+                        <p>Built careers web pages for Giant Tiger.</p>
+                      </li>
+                      <li>
+                        <p>Developed web pages using HTML and Javascript.</p>
+                      </li>
+                      <li>
+                        <p>
+                          Applied responsive and user friendly interfaces (UI)
+                          using CSS, JQuery, Bootstrap, Slick, and Photoshop.
+                        </p>
+                      </li>
+                    </ul>
+                  </td>
+                </tr>
+                {/* end of syadev experience */}
+                <br />
+                <br />
                 {/* start of sayadev experience */}
                 <tr>
                   <td

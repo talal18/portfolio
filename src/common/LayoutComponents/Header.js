@@ -31,8 +31,8 @@ const Header = props => (
             </a>
           </li>
           <li>
-            <a href="#" onClick={() => browserHistory.push("about")}>
-              About
+            <a href="#" onClick={() => browserHistory.push("resume")}>
+              My Resume
             </a>
           </li>
           <li>
